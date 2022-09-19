@@ -51,7 +51,6 @@ div, article, section, header, nav, figure, li{
 header h1{
     position: relative;
     left: 100px;
-    top: -1ex;
 }
 
 aside.sidebar{
