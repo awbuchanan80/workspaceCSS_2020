@@ -50,7 +50,6 @@ div, article, section, header, nav, figure, li{
 
 header h1{
     position: relative;
-    left: 100px;
 }
 
 aside.sidebar{
@@ -66,3 +65,76 @@ footer{
     width: 30%;
     left: 30%;
 }
+
+section.intro{
+    width: 60%;
+}
+
+div.explanation{
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+div.participation{
+    margin-left: 50%;
+    width: 40%;
+    padding: 5%;
+}
+
+div.benefits{
+    float: left;
+    width: 40%;
+    top: 100px;
+}
+
+div.requirements{
+    float: right;
+    width: 60%;
+}
+
+/*---font---*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*---local font---*/
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/chunkfive.woff');
+}
+
+header h1{
+    font-family: 'Amatic SC', cursive;
+    text-indent: -9999px;
+    background-image: url('../img/zengarden.gif');
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    font-size: 2.25em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 1.25em;
+    font-weight: 150;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+
+h1{
+    font-size: 3.25em;
+    font-weight: 175;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+
