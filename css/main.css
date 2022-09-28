@@ -264,6 +264,7 @@ div{
   .one{
     grid-column: 2/4;
     grid-row: 2/4;
+    z-index: 1;
   }
   
   .two{
@@ -281,10 +282,12 @@ div{
   .five{
     grid-column: 1/5;
     grid-row: 4/5;
+    z-index: 1;
   }
   .six{
     grid-column: 3/5;
     grid-row: 3/5;
+    z-index: 2;
   }
 
   */
