@@ -245,7 +245,9 @@ h2{
     100%{background-image: linear-gradient(green, white, yellow);}
 }
 
-/*In class exercise 9/29/22*/
+/*
+
+-------In class exercise 9/29/22-------
 
 div{
     background-color:  hsla(200,50%,70%,0.3);
@@ -284,3 +286,5 @@ div{
     grid-column: 3/5;
     grid-row: 3/5;
   }
+
+  */
